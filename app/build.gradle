@@ -3,11 +3,13 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "edu.cmu.sphinx.pocketsphinx"
+        applicationId 'ru.cdp.pbcontrol'
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1
         versionName "1.1"
+    }
+    productFlavors {
     }
 }
 

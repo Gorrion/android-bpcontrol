@@ -3,11 +3,13 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "edu.cmu.pocketsphinx.demo.wear"
+        applicationId 'ru.cdp.pbcontrol.demo.wear'
         minSdkVersion 24
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
+    }
+    productFlavors {
     }
 }
 

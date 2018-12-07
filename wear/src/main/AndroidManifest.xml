@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.cmu.pocketsphinx.demo.wear">
+    package="ru.cdp.pbcontrol.demo.wear">
 
     <meta-data
         android:name="com.google.android.wearable.standalone"
