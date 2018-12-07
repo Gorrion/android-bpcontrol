@@ -3,8 +3,35 @@
     <item name="tag_guid" type="id" />
 
     <string name="app_name">PbControll</string>
-    
+
     <string name="kws_caption">Для начала скажите \"Пандора Привет\".</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Основные</string>
+
+    <string name="pref_title_display_name">Адрес сервера</string>
+    <string name="pref_default_display_name">http://192.168.2.7:8187/</string>
+
+    <integer name="pref_example_list_default">3</integer>
+    <string name="pref_title_add_friends_to_messages">Номер окна</string>
+    <string-array name="pref_example_list_titles">
+        <item>Первое</item>
+        <item>Второе</item>
+        <item>Третье</item>
+        <item>Четвертое</item>
+        <item>Пятое</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
     <!--<string name="menu_caption">Say \"digits\", \"forecast\" or \"phones\" to choose the grammar, language model or phonetic decoder example.</string>-->
     <!--<string name="digits_caption">To try recognition of digits: say something like \"one two three four five\".</string>-->
     <!--<string name="forecast_caption">To try recognition of a weather forecast like \"sunny spells on Wednesday\".</string>-->
