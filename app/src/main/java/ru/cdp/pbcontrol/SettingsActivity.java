@@ -164,10 +164,12 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                     if (!Validate.isUrl(newValue.toString())) {
                         final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
                         builder.setTitle("Неверный URL сервера");
-                        builder.setMessage("Пример: http://192.168.2.7:8187/");
+                        builder.setMessage("Пример: http://10.10.1.7:8187/");
                         builder.setPositiveButton(android.R.string.ok, null);
                         builder.show();
                         rtnval = false;
+                    } else {
+                        bindPreferenceSummaryToValue(preference);
                     }
                     return rtnval;
                 }

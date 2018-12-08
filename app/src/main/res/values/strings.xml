@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <item name="tag_guid" type="id" />
+    <item name="tag_host" type="id" />
 
     <string name="app_name">PbControll</string>
 
@@ -15,7 +16,7 @@
     <string name="pref_title_display_name">Адрес сервера</string>
     <string name="pref_default_display_name">http://192.168.2.7:8187/</string>
 
-    <integer name="pref_example_list_default">3</integer>
+    <string name="pref_example_list_default">3</string>
     <string name="pref_title_add_friends_to_messages">Номер окна</string>
     <string-array name="pref_example_list_titles">
         <item>Первое</item>
